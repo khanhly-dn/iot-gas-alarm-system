@@ -1,14 +1,6 @@
-/*
- * ============================================================
- *   FIRE ALERT SYSTEM -- ESP32 + MQ-2
- *   Web Dashboard | OLED | Buzzer | Telegram Bot
- *   FIX: Dung WebServer thay ESPAsyncWebServer => tranh crash tcp_alloc
- * ============================================================
- */
-
 #include <WiFi.h>
 #include <WiFiClientSecure.h>
-#include <WebServer.h>           // << Dung cai nay, KHONG dung ESPAsyncWebServer
+#include <WebServer.h>          
 #include <Wire.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
@@ -73,10 +65,7 @@ void addLog(int val, String level) {
   logHead = (logHead + 1) % LOG_SIZE;
   if (logCount < LOG_SIZE) logCount++;
 }
-
-// ============================================================
 //   HTML DASHBOARD
-// ============================================================
 const char INDEX_HTML[] PROGMEM = R"HTMLEOF(<!DOCTYPE html>
 <html lang="vi">
 <head>
