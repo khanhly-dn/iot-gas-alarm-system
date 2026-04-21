@@ -157,7 +157,7 @@ ArduinoJson
 |:---:|:---:|
 | ![Demo](https://github.com/khanhly-dn/iot-gas-alarm-system/blob/main/DEMO.jpg?raw=true) | Hiển thị trực tiếp trên màn hình 128×64 |
 
-🎬 **Video hoạt động:** *(Thêm link video demo tại đây)*
+🎬 **Video hoạt động:** *https://drive.google.com/file/d/1uQ9-96Eneh9pxS7wGY8gWtTG6LRalRix/view?usp=sharing*
 
 ---
 
@@ -180,5 +180,5 @@ Khoa Công nghệ Thông tin – Trường Đại học Đại Nam
 ---
 
 <p align="center">
-  Made with ❤️ using ESP32 · MQ-2 · Telegram · Arduino
+  Made with using ESP32 · MQ-2 · Telegram · Arduino
 </p>
